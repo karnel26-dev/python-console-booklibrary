@@ -88,4 +88,10 @@ class Library:
                 return item['ISBN']
         return None
 
+    def dump_books_data(self, filename):
+        self.storage.dump_books_to_json(filename)
+
+
+
+
 
